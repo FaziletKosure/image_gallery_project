@@ -149,3 +149,31 @@ nav ul li a:hover {
   left: 50px;
   opacity: 0.3;
 }
+@media screen and (max-width: 450px) {
+  nav ul li {
+    margin-left: -5px;
+  }
+  nav ul li a {
+    font-size: 9px;
+    padding: 2px;
+  }
+  h1 {
+    font-size: 12px;
+  }
+  .menu-icon {
+    width: 25px;
+    cursor: pointer;
+    margin-left: 24px;
+  }
+  .logo {
+    width: 71px;
+  }
+}
+/* @media screen and (max-width: 350px) {
+  footer {
+    font-size: 11px;
+  }
+  nav ul li {
+    padding: 1px;
+  }
+} */
